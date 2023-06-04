@@ -3,7 +3,7 @@
 void setZeros(vector<vector<int>> &matrix)
 {
 	// Write your code here.
-	 int rows = matrix.size(), cols = matrix[0].size();
+     int rows = matrix.size(), cols = matrix[0].size();
      vector < int > dummy1(rows,-1), dummy2(cols,-1);
      for (int i = 0; i < rows; i++)
      {
