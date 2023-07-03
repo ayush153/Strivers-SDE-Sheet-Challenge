@@ -7,7 +7,7 @@ void helper(int idx, int sum, int target, int n, vector<int> ds, vector<int>& ar
 		return;
 	}
 
-	for(int i = idx; i < n; ++i)
+	for(int i = idx; i < n; i++)
 	{
 		if(i != idx and arr[i] == arr[i-1])
 			continue;
